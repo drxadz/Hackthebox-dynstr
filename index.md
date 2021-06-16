@@ -14,47 +14,35 @@
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
+    <th class="tg-0pky">port</th>
+    <th class="tg-0lax">service</th>
+    <th class="tg-0lax">version</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0lax">80</td>
+    <td class="tg-0lax">http<br></td>
+    <td class="tg-0lax">Apache httpd 2.4.41</td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0lax">22</td>
+    <td class="tg-0lax">ssh</td>
+    <td class="tg-0lax">Ubuntu 4ubuntu0.2</td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0lax">53</td>
+    <td class="tg-0lax">domain</td>
+    <td class="tg-0lax">ISC BIND 9.16.</td>
   </tr>
 </tbody>
 </table>
 
-| port | service |version | 
-|------|--------|-------|
-| 80 | http|  Apache httpd 2.4.41 |
-| 22 | ssh |  Ubuntu 4ubuntu0.2  |
-| 53 | domain |  ISC BIND 9.16.1 |
 # Nmap
 ```bash
 # Nmap 7.91 scan initiated Sun Jun 13 10:07:20 2021 as: nmap -T5 -p- -sCV --min-rate 25000 -oN nmap/alnmap.txt --vv 10.10.10.244
