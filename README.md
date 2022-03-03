@@ -57,11 +57,11 @@ Service detection performed. Please report any incorrect results at https://nmap
 - dns.dyna.htb[](http://dns.dyna.htb)
 - dyna.htb[](http://dyna.htb)
  
-** i have  run aquatone to check all webpage at same time **
+ **i have  run aquatone to check all webpage at same time 
  
  ![](https://i.imgur.com/JFcoPkt.png)
 
-**All Pages looks same **
+**All Pages looks same 
 
 ![](https://i.imgur.com/earjnRA.png)
 
